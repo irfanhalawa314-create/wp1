@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabel KRS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background-color: #fff;
+    }
+
+    table, th, td {
+      border: 1px solid #999;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    .footer {
+      margin-top: 20px;
+      text-align: center;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Kartu Rencana Studi (KRS)</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>No</th>
+        <th>Kode Mata Kuliah</th>
+        <th>Nama Mata Kuliah</th>
+        <th>SKS</th>
+        <th>Kelas</th>
+        <th>Dosen Pengampu</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>IF101</td>
+        <td>Pemrograman web</td>
+        <td>3</td>
+        <td>A</td>
+        <td>efri</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>IF102</td>
+        <td>DataBase</td>
+        <td>3</td>
+        <td>B</td>
+        <td>Heri</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>IF103</td>
+        <td>Multimedia</td>
+        <td>3</td>
+        <td>A</td>
+        <td>Andi</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="footer">
+    <p>&copy; 2025 - Sistem KRS</p>
+  </div>
+
+</body>
+</html>
